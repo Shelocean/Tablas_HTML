@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.horario {
+    margin-top: 60px;
+}
+
+table, td, tr, th {
+    border: 1px solid #000000;
+}
+
+td, th {
+    padding: 14px;
+}
+
+caption {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+thead {
+    background-color: #165005fa;
+    color:#f3f3ff;
+}
+
+tbody th {
+    background-color:#2d6410;
+    color:#f9f9f9;
+    font-size: 0.7rem;
+    text-align:center;
+}
+
+.tecnica {
+    background-color:#406639;
+    color:#e2ebe1;
+    text-align:center;
+    font-size: 16px;
+}
+
+.transversal {
+    background-color:#368223e5;
+    color:#e2ebe1;
+    text-align:center;
+    font-size: 16px;
+}
+
+.proyecto {
+    background-color:#62883e;
+    color:#e2ebe1;
+    text-align:center;
+    font-size: 16px;
+}
+
+.libre {
+    background-color:#0e2e21;
+    color:#ffffff;
+    text-align:center;
+    font-size: 16px;
+}
+
+.pausa {
+    text-align: center;
+    font-style: italic;
+    background-color: #517f41;
+    color:#f3f3ff;
+    font-size: 18px;
+}
+
+.ambiente {
+    display: block;
+    font-size: small;
+    background-color: #01861ba9;
+    color:#0a0a0a;
+    text-align: center;
+}
+
+.tecnica:hover, .transversal:hover, .proyecto:hover, .libre:hover {
+    transform: scale(1.1);
+}
+
+tfoot {
+    font-size: small;
+    text-align: right;
+}
+
+.tabla-contenedor {
+    overflow-x: auto;
+}
+
+.head {
+    position: sticky;
+}
